@@ -1,0 +1,4 @@
+---
+
+- name: qdiscipline NetworkManager script
+  copy: src=99-qdiscipline dest=/etc/NetworkManager/dispatcher.d owner=root mode=0755
