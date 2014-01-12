@@ -1,10 +1,10 @@
 network-qdiscipline
 ========
 
-An [ansible role](https://galaxy.ansibleworks.com/) which sets the queueing
-discipline on network interfaces to favour low latency over ultimate bandwidth,
-hopefully benefiting interactive applications such as voice calls, ssh etc.
-It enables the
+An [ansible role](https://galaxy.ansibleworks.com/list#/roles/215) which sets
+the queueing discipline on network interfaces to favour low latency over
+ultimate bandwidth, hopefully benefiting interactive applications such as voice
+calls, ssh etc. It enables the
 [fq_codel](https://www.bufferbloat.net/projects/codel/wiki) algorithm.
 
 This is a modification of
